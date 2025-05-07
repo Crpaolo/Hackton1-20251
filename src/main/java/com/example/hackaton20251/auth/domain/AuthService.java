@@ -56,7 +56,7 @@ public class AuthService {
         if (user.isPresent()) throw new UserAlreadyExistException("Email is already registered");
         User user1 = modelMapper.map(req, User.class);
         user1.setPassword(passwordEncoder.encode(req.getPassword()));
-        user1.setRole(Role.USER);
+        user1.setRole(Role.ROLE_USER);
         user1.setFechaDeRegistro(LocalDate.now());
         userRepository.save(user1);
         JwtAuthResponse response = new JwtAuthResponse();
