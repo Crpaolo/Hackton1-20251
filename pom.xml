@@ -30,6 +30,7 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
+<<<<<<< HEAD
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -184,6 +185,8 @@
             <version>4.4.0</version>
         </dependency>
 
+=======
+>>>>>>> 43898863996cc79d38934962dbf2b6bedf0c91f8
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
