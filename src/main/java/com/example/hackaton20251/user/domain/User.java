@@ -1,5 +1,6 @@
 package com.example.hackaton20251.user.domain;
 
+import com.example.hackaton20251.airequest.domain.Airequest;
 import com.example.hackaton20251.company.domain.Company;
 import jakarta.persistence.*;
 import lombok.Data;
@@ -43,7 +44,7 @@ public class User implements UserDetails {
     private List<UserLimit> limits;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<AiRequest> aiRequests;
+    private List<Airequest> airequests;
 
 
     @Transient

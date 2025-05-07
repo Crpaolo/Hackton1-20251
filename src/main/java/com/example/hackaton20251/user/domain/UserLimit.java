@@ -1,25 +1,20 @@
-package com.example.hackaton20251.companyRestriction.domain;
+package com.example.hackaton20251.user.domain;
 
 import com.example.hackaton20251.airequest.domain.ModelType;
-import com.example.hackaton20251.company.domain.Company;
-import com.example.hackaton20251.user.domain.User;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.time.LocalDate;
-import java.util.List;
-
 @Data
 @Entity
-@Table(name = "company_restrictions")
-public class CompanyRestriction {
+@Table(name = "user_limits")
+public class UserLimit {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "company_id", nullable = false)
-    private Company company;
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)

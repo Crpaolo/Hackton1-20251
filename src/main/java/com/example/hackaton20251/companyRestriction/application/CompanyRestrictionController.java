@@ -1,9 +1,9 @@
-package com.example.hackaton20251.company.application;
+package com.example.hackaton20251.companyRestriction.application;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/")
-public class CompanyController {
+public class CompanyRestrictionController {
 }
