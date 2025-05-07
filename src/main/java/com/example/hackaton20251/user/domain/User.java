@@ -1,5 +1,6 @@
 package com.example.hackaton20251.user.domain;
 
+import com.example.hackaton20251.company.domain.Company;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
@@ -33,6 +34,17 @@ public class User implements UserDetails {
 
     @Column(nullable = false)
     private LocalDate fechaDeRegistro;
+
+    @ManyToOne
+    @JoinColumn(name = "company_id", nullable = false)
+    private Company company;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<UserLimit> limits;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<AiRequest> aiRequests;
+
 
     @Transient
     private String rolePrefix = "ROLE_";
