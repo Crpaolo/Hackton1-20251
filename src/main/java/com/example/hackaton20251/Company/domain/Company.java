@@ -1,6 +1,6 @@
-package com.example.hackaton20251.company.domain;
+package com.example.hackaton20251.Company.domain;
 
-import com.example.hackaton20251.companyRestriction.domain.CompanyRestriction;
+import com.example.hackaton20251.CompanyRestriction.domain.CompanyRestriction;
 import com.example.hackaton20251.user.domain.User;
 import jakarta.persistence.*;
 

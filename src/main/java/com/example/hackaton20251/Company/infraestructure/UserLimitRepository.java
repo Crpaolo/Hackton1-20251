@@ -1,4 +1,4 @@
-package com.example.hackaton20251.company.infraestructure;
+package com.example.hackaton20251.Company.infraestructure;
 
 
 import com.example.hackaton20251.airequest.domain.ModelType;

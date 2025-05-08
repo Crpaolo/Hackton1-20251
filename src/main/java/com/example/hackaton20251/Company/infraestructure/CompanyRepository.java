@@ -1,6 +1,6 @@
-package com.example.hackaton20251.company.infraestructure;
+package com.example.hackaton20251.Company.infraestructure;
 
-import com.example.hackaton20251.company.domain.Company;
+import com.example.hackaton20251.Company.domain.Company;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

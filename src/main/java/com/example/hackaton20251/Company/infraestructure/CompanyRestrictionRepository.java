@@ -1,8 +1,8 @@
-package com.example.hackaton20251.company.infraestructure;
+package com.example.hackaton20251.Company.infraestructure;
 
 
 import com.example.hackaton20251.airequest.domain.ModelType;
-import com.example.hackaton20251.companyRestriction.domain.CompanyRestriction;
+import com.example.hackaton20251.CompanyRestriction.domain.CompanyRestriction;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

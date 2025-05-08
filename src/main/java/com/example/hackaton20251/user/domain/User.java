@@ -1,7 +1,7 @@
 package com.example.hackaton20251.user.domain;
 
 import com.example.hackaton20251.airequest.domain.Airequest;
-import com.example.hackaton20251.company.domain.Company;
+import com.example.hackaton20251.Company.domain.Company;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;

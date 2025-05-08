@@ -1,13 +1,9 @@
-package com.example.hackaton20251.companyRestriction.domain;
+package com.example.hackaton20251.CompanyRestriction.domain;
 
 import com.example.hackaton20251.airequest.domain.ModelType;
-import com.example.hackaton20251.company.domain.Company;
-import com.example.hackaton20251.user.domain.User;
+import com.example.hackaton20251.Company.domain.Company;
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.time.LocalDate;
-import java.util.List;
 
 @Data
 @Entity

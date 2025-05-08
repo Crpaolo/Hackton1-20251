@@ -1,4 +1,4 @@
-package com.example.hackaton20251.companyRestriction.infraestructure;
+package com.example.hackaton20251.CompanyRestriction.infraestructure;
 
 import org.springframework.stereotype.Repository;
 

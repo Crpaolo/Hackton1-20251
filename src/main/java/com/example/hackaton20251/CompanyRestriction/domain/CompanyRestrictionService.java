@@ -1,4 +1,4 @@
-package com.example.hackaton20251.companyRestriction.domain;
+package com.example.hackaton20251.CompanyRestriction.domain;
 
 import org.springframework.stereotype.Service;
 
