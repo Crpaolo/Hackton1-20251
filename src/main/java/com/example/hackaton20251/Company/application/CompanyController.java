@@ -1,6 +1,8 @@
 package com.example.hackaton20251.Company.application;
 
 import com.example.hackaton20251.Company.domain.CompanyService;
+import com.example.hackaton20251.Company.dtos.CompanyRequest;
+import com.example.hackaton20251.Company.dtos.CompanyResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

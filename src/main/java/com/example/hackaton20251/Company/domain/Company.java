@@ -27,7 +27,7 @@ public class Company {
     @Column(name = "affiliation_date")
     private LocalDate affiliationDate;
 
-    private Boolean active;
+    private boolean activa;
 
     @OneToOne
     @JoinColumn(name = "administrador_id")
